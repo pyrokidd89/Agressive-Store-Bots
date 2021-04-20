@@ -1,6 +1,7 @@
 import bs4
 import sys
 import time
+import apprise
 from twilio.rest import Client
 from twilio.base.exceptions import TwilioRestException
 from selenium import webdriver
@@ -64,22 +65,35 @@ def create_driver():
     options = Options()
     options.headless = False  # Change To False if you want to see Firefox Browser Again.
     profile = webdriver.FirefoxProfile(
-        r'C:\Users\Trebor\AppData\Roaming\Mozilla\Firefox\Profiles\t6inpqro.Robert-1613116705360')
+        r'C:\Users\Andrew\AppData\Roaming\Mozilla\Firefox\Profiles\tncguumw.default-release')
     web_driver = webdriver.Firefox(profile, options=options, executable_path=GeckoDriverManager().install())
     return web_driver
 
 
 # 3. credit card CVV Number
-CVV = '123'  # You can enter your CVV number here in quotes.
+CVV = '215'  # You can enter your CVV number here in quotes.
 
 # 4. Twilio Account
-toNumber = 'your_phonenumber'
-fromNumber = 'twilio_phonenumber'
-accountSid = 'ssid'
-authToken = 'authtoken'
-client = Client(accountSid, authToken)
+#toNumber = 'your_phonenumber'
+#fromNumber = 'twilio_phonenumber'
+#accountSid = 'ssid'
+#authToken = 'authtoken'
+#client = Client(accountSid, authToken)
 
+# 4.a Telegram using apprise
+# Create an Apprise instance
+apobj = apprise.Apprise()
+
+# Add all of the notification services by their server url.
+# A sample telegram notification:
+apobj.add('tgram://1693695277:AAF2Ikr3vaYepodeBvR0dX8VG4m-Uz_mXDw/1719249203/')
+# notify all of the services loaded into our Apprise object.
+# apobj.notify(
+#    body='what a great notification service!',
+#   title='my notification title',
+# )
 # ----------------------------------------------------------------------------------------------------------------------
+
 
 
 def time_sleep(x, driver):
@@ -129,6 +143,8 @@ def searching_for_card(driver):
         soup = extract_page()
         wait = WebDriverWait(driver, 15)
         wait2 = WebDriverWait(driver, 5)
+        Title = soup.find("div", class_="sku-title")
+        Title = Title.text
 
         try:
             add_to_cart_button = soup.find('button', {
@@ -154,8 +170,12 @@ def searching_for_card(driver):
 
                 # Sending Text Message To let you know you are in the queue system.
                 try:
-                    client.messages.create(to=toNumber, from_=fromNumber,
-                                           body=f'Your In Queue System on Bestbuy! {url}')
+                    apobj.notify(
+                    body='Your In Queue System on Bestbuy!',
+                    title=Title,
+                    )
+                    #client.messages.create(to=toNumber, from_=fromNumber,
+                    #                      body=f'Your In Queue System on Bestbuy! {url}')
                 except (NameError, TwilioRestException):
                     pass
 
@@ -169,6 +189,7 @@ def searching_for_card(driver):
                         if please_wait_enabled:
                             driver.refresh()
                             time.sleep(15)
+                            del please_wait_enabled, add_to_cart
                         else:  # When Add to Cart appears. This will click button.
                             print("Add To Cart Button Clicked A Second Time.")
                             wait2.until(
@@ -230,6 +251,10 @@ def searching_for_card(driver):
 
                 # Completed Checkout.
                 print('Order Placed!')
+                apobj.notify(
+                    body='Order Placed! ' + url,
+                    title=Title,
+                    )
                 time.sleep(1800)
                 driver.quit()
 

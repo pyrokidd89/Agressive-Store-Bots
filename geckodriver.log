@@ -1,0 +1,179 @@
+1618867036150	geckodriver	INFO	Listening on 127.0.0.1:57773
+1618867040738	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofileNB94HN"
+1618867368942	geckodriver	INFO	Listening on 127.0.0.1:50006
+1618867373527	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofileADHY0W"
+1618867373874	Marionette	INFO	Marionette enabled
+1618867375038	Marionette	INFO	Listening on port 50016
+1618867375074	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618923552297	geckodriver	INFO	Listening on 127.0.0.1:52530
+1618923556839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofilesosTQs"
+1618923557232	Marionette	INFO	Marionette enabled
+1618923558797	Marionette	INFO	Listening on port 52561
+1618923558898	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://assets.bbystatic.com/shop/master-ad/dist/client/client-d85836ea3c007bcce44b630c9258e9e0.mjs, line 1: TypeError: t.props.breadCrumb is undefined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-e1d29f0a4af2eb1ad6d17db14b77dcda.js, line 148: TypeError: e is null
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-e1d29f0a4af2eb1ad6d17db14b77dcda.js, line 148: TypeError: e is null
+JavaScript error: https://assets.bbystatic.com/shop/master-ad/dist/client/client-d85836ea3c007bcce44b630c9258e9e0.mjs, line 1: TypeError: t.props.breadCrumb is undefined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-e1d29f0a4af2eb1ad6d17db14b77dcda.js, line 148: TypeError: e is null
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-e1d29f0a4af2eb1ad6d17db14b77dcda.js, line 148: TypeError: e is null
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-e1d29f0a4af2eb1ad6d17db14b77dcda.js, line 148: TypeError: e is null
+JavaScript error: https://assets.bbystatic.com/shop/master-ad/dist/client/client-d85836ea3c007bcce44b630c9258e9e0.mjs, line 1: TypeError: t.props.breadCrumb is undefined
+JavaScript error: https://www.bestbuy.com/identity/signin?token=tid%3Ae81d638e-a1d8-11eb-925f-005056ae2547, line 158: ReferenceError: initializer is not defined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/lib-dai/dist/client/client-6009ba6739d0dec68b1532c993ab7cfc.mjs, line 1: ReferenceError: actionLog is not defined
+1618925274194	geckodriver	INFO	Listening on 127.0.0.1:65153
+1618925278715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofilerudhTr"
+1618925279055	Marionette	INFO	Marionette enabled
+1618925280085	Marionette	INFO	Listening on port 65162
+1618925280250	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.bbystatic.com/shop/master-ad/dist/client/client-d85836ea3c007bcce44b630c9258e9e0.mjs, line 1: TypeError: t.props.breadCrumb is undefined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-e1d29f0a4af2eb1ad6d17db14b77dcda.js, line 148: TypeError: e is null
+JavaScript error: https://www.bestbuy.com/identity/signin?token=tid%3Ac2509fd8-a1dd-11eb-925f-005056ae2547, line 158: ReferenceError: initializer is not defined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/lib-dai/dist/client/client-6009ba6739d0dec68b1532c993ab7cfc.mjs, line 1: ReferenceError: actionLog is not defined
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1618926515817	geckodriver	INFO	Listening on 127.0.0.1:52230
+1618926520335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofileH6r2ZQ"
+1618926520555	Marionette	INFO	Marionette enabled
+1618926521626	Marionette	INFO	Listening on port 52238
+1618926521870	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618926637564	geckodriver	INFO	Listening on 127.0.0.1:52606
+1618926642146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofileIt2tj7"
+1618926642338	Marionette	INFO	Marionette enabled
+1618926643404	Marionette	INFO	Listening on port 52614
+1618926643685	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s0.2mdn.net/4516568/1588960293354/index.html, line 323: TypeError: studio.Enabler is undefined
+JavaScript error: https://s0.2mdn.net/4516568/1588608069859/index.html, line 322: TypeError: studio.Enabler is undefined
+1618934328831	geckodriver	INFO	Listening on 127.0.0.1:55685
+1618934333381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofilepXn2Co"
+1618934333591	Marionette	INFO	Marionette enabled
+1618934335004	Marionette	INFO	Listening on port 55693
+1618934335443	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/layout.js", 502))
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/layout.js", 502))
+1618938679199	geckodriver	INFO	Listening on 127.0.0.1:52275
+1618938683945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofileeII5Jc"
+1618938684152	Marionette	INFO	Marionette enabled
+1618938685358	Marionette	INFO	Listening on port 52288
+1618938685491	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618939119397	Marionette	INFO	Stopped listening on port 52288
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618939981065	geckodriver	INFO	Listening on 127.0.0.1:55454
+1618939985721	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofile1Kz0yA"
+1618939985931	Marionette	INFO	Marionette enabled
+1618939987279	Marionette	INFO	Listening on port 55466
+1618939987780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618940355725	geckodriver	INFO	Listening on 127.0.0.1:56383
+1618940360364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofilei9MNDj"
+1618940360555	Marionette	INFO	Marionette enabled
+1618940361614	Marionette	INFO	Listening on port 56407
+1618940361906	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/layout.js", 502))
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 479: TypeError: this._nodeActorsMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 479: TypeError: this._nodeActorsMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 479: TypeError: this._nodeActorsMap is null
+1618953280175	geckodriver	INFO	Listening on 127.0.0.1:64559
+1618953284884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofiley1jxci"
+1618953285076	Marionette	INFO	Marionette enabled
+1618953286201	Marionette	INFO	Listening on port 64567
+1618953286423	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-e1d29f0a4af2eb1ad6d17db14b77dcda.js, line 148: TypeError: e is null
+JavaScript error: https://assets.bbystatic.com/shop/master-ad/dist/client/client-d85836ea3c007bcce44b630c9258e9e0.mjs, line 1: TypeError: t.props.breadCrumb is undefined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for shop-product-carousels-57731835-add-to-cart-6422283. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for pricing-price-73282093. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for pricing-price-56690930. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for shop-product-carousels-57731835-add-to-cart-6356983. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for pricing-price-83830854. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for shop-product-carousels-57731835-add-to-cart-6420740. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for shop-product-carousels-57731835-add-to-cart-6357223. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for pricing-price-61701945. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for pricing-price-9294181. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for pricing-price-88386044. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for shop-product-carousels-57731835-add-to-cart-6424047. Usually this is caused by an exception in your component's client init function.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/vendor/gvp-9ae543e5dd97ff595273880644fc595e.min.js, line 22: Error: Initializer failed to initialize component for shop-product-carousels-57731835-add-to-cart-6449223. Usually this is caused by an exception in your component's client init function.
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:456:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:456:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:959:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:710:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:456:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1618953971381	geckodriver	INFO	Listening on 127.0.0.1:50123
+1618953976054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofileFBZuEi"
+1618953976241	Marionette	INFO	Marionette enabled
+1618953977316	Marionette	INFO	Listening on port 50132
+1618953977590	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618954151857	geckodriver	INFO	Listening on 127.0.0.1:50778
+1618954156518	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Andrew\\AppData\\Local\\Temp\\rust_mozprofilelFHVJ5"
+1618954156719	Marionette	INFO	Marionette enabled
+1618954157751	Marionette	INFO	Listening on port 50788
+1618954158065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://s0.2mdn.net/4647129/1607019599980/SM_2_TimeNow_728x90_HTML5/SM_2_TimeNow_728x90.js, line 489: TypeError: this.text1 is undefined
+JavaScript error: https://s0.2mdn.net/4647129/1607019599980/SM_2_TimeNow_728x90_HTML5/SM_2_TimeNow_728x90.js, line 495: TypeError: this.text1 is undefined
+JavaScript error: https://s0.2mdn.net/4647129/1607019599980/SM_2_TimeNow_728x90_HTML5/SM_2_TimeNow_728x90.js, line 498: TypeError: this.text1 is undefined
+JavaScript error: https://s0.2mdn.net/4647129/1607019599980/SM_2_TimeNow_728x90_HTML5/SM_2_TimeNow_728x90.js, line 501: TypeError: this.text1 is undefined
+JavaScript error: https://s0.2mdn.net/4647129/1607019599980/SM_2_TimeNow_728x90_HTML5/SM_2_TimeNow_728x90.js, line 504: TypeError: this.text1 is undefined
+1618960032171	Marionette	INFO	Stopped listening on port 50788
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
