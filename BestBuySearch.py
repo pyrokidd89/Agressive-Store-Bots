@@ -39,15 +39,20 @@ url = 'https://www.bestbuy.com/site/searchpage.jsp?_dyncharset=UTF-8&id=pcat1707
 # https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&qp=brand_facet%3DBrand~NVIDIA&st=rtx%203080
 
 # Create variables
+global sentsku
+global senttime
+global pausetime
+
 sentsku = []  # these are sku's of cards sent in the last X minutes. to not overload your inbox
 senttime = []  # Time stamp of the sku's of sent cards.
 pausetime = 300  # notification pause time to not overload inbox
+
 def timeSleep(x, driver):
-    #for i in range(x, -1, -1):
-        #sys.stdout.write('\r')
-        #sys.stdout.write('{:2d} seconds'.format(i))
-        #sys.stdout.flush()
-        #time.sleep(1)
+    for i in range(x, -1, -1):
+        sys.stdout.write('\r')
+        sys.stdout.write('{:2d} seconds'.format(i))
+        sys.stdout.flush()
+        time.sleep(1)
     driver.refresh()
     sys.stdout.write('\r')
     sys.stdout.write('Page refreshed\n')
@@ -63,21 +68,21 @@ def createDriver():
     return driver
 
 
-def driverWait(driver, findType, selector):
-    """Driver Wait Settings."""
-    while True:
-        if findType == 'css':
-            try:
-                driver.find_element_by_css_selector(selector).click()
-                break
-            except NoSuchElementException:
-                driver.implicitly_wait(0.2)
-        elif findType == 'name':
-            try:
-                driver.find_element_by_name(selector).click()
-                break
-            except NoSuchElementException:
-                driver.implicitly_wait(0.2)
+#def driverWait(driver, findType, selector):
+#    """Driver Wait Settings."""
+#    while True:
+#        if findType == 'css':
+#            try:
+#                driver.find_element_by_css_selector(selector).click()
+#                break
+#            except NoSuchElementException:
+#                driver.implicitly_wait(0.2)
+#        elif findType == 'name':
+#            try:
+#                driver.find_element_by_name(selector).click()
+#                break
+#            except NoSuchElementException:
+#               driver.implicitly_wait(0.2)
 
 
 def findingCards(driver):
